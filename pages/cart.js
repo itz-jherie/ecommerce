@@ -2,7 +2,7 @@ import Commerce from "@chec/commerce.js";
 import { useCartState, useCartDispatch } from "../context/cart";
 import commerce from '../lib/commerce'
 import Navbar from "../components/Navbar";
-import Link from "next/Link";
+import Link from "next/link";
 import CartEmpty from "../components/CartEmpty";
 
 
@@ -57,12 +57,11 @@ export default function CartPage() {
 
     const {line_items, subtotal, hosted_checkout_url} = useCartState()
     const x = useCartState();
-    console.log(x)
 
     const isEmpty = line_items.length === 0;
 
     if(isEmpty) return <CartEmpty/>;
-    console.log(line_items)
+    
 
     return (
         <>

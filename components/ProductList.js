@@ -1,10 +1,9 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 
 import Product from './Product'
 
 export default function ProductList({products}) {
     if(!products) return null;
-// console.log(products)
     return (
         <ul className='flex flex-row flex-wrap  justify-center gap-4 px-2 '>
             {products.map((product) => (

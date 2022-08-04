@@ -1,9 +1,6 @@
-import styles from '../styles/Home.module.css'
 import React, { useState, useEffect } from 'react';
 import ProductList from '../components/ProductList';
 import client from '../lib/commerce';
-import CategoryList from '../components/CategoryList';
-import Link from 'next/Link';
 import Navbar from '../components/Navbar';
 
 

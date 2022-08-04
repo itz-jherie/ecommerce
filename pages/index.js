@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -6,10 +6,10 @@ import Footer from "../components/Footer";
 export default function LandingPage() {
   return ( 
     <div>
-      <div><Navbar/></div>
-      <div className="flex flex-col mt-16 p-3 items-center">
-        <div className="   flex flex-col justify-around md:flex-row">
-          <div className="  text-center px-5 py-10 w-full ">
+     <div><Navbar/></div>
+      <div className="flex font-poppins  flex-col mt-16 p-3 font- items-center">
+        <div className="flex flex-col justify-around md:flex-row">
+          <div className="text-center px-5 py-10 w-full ">
             <p className="font-bold text-2xl">
               Buy Accessories <br/> 
               and Home Office Items

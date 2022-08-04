@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import { useState } from "react";
 import SideBar from "./Sidebar";
 import { AiFillShopping, AiOutlineMenu } from "react-icons/ai"
